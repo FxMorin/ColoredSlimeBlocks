@@ -52,7 +52,7 @@ public class ColoredSlimeBlockDyeRecipe extends CustomRecipe {
                 }
             }
         }
-        if (itemColor == null || slimeBlockColor == null) {
+        if (itemColor == null || slimeBlockColor == null || itemColor == DyeColor.WHITE) {
             return false;
         }
         return itemColor != slimeBlockColor;
