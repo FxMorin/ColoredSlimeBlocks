@@ -26,11 +26,27 @@ public class ModItems {
             properties -> new BlockItem(ModBlocks.COLORED_SLIME_BLOCK, properties)
     );
 
+    public static final Item COLORED_HONEY_BLOCK = register(
+            id("colored_honey_block"),
+            properties -> new BlockItem(ModBlocks.COLORED_HONEY_BLOCK, properties)
+    );
+
     public static ItemStack createColoredSlimeBlockStack(DyeColor color) {
         ItemStack stack = new ItemStack(ModItems.COLORED_SLIME_BLOCK);
         stack.applyComponents(DataComponentMap.builder()
                 .set(DataComponents.ITEM_NAME, Component.translatable(
                         "block.coloredslimeblocks.colored_slime_block." + color.getName()
+                ))
+                .set(DataComponents.BLOCK_STATE, new BlockItemStateProperties(Map.of("color", color.getName())))
+                .build());
+        return stack;
+    }
+
+    public static ItemStack createColoredHoneyBlockStack(DyeColor color) {
+        ItemStack stack = new ItemStack(ModItems.COLORED_HONEY_BLOCK);
+        stack.applyComponents(DataComponentMap.builder()
+                .set(DataComponents.ITEM_NAME, Component.translatable(
+                        "block.coloredslimeblocks.colored_honey_block." + color.getName()
                 ))
                 .set(DataComponents.BLOCK_STATE, new BlockItemStateProperties(Map.of("color", color.getName())))
                 .build());

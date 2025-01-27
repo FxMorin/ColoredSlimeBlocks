@@ -25,7 +25,6 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}",
-    "pistonlib": ">=1.2.0"
+    "minecraft": "${minecraft_version}"
   }
 }

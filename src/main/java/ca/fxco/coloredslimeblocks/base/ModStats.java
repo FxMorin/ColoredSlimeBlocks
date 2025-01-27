@@ -11,6 +11,7 @@ import static ca.fxco.coloredslimeblocks.ColoredSlimeBlocks.id;
 public class ModStats {
 
     public static final ResourceLocation CLEAN_SLIME_BLOCK = makeCustomStat("clean_slime_block");
+    public static final ResourceLocation CLEAN_HONEY_BLOCK = makeCustomStat("clean_honey_block");
 
     private static ResourceLocation makeCustomStat(String name) {
         ResourceLocation id = id(name);

@@ -28,6 +28,11 @@ public class ModCreativeModeTabs {
                             output.accept(ModItems.createColoredSlimeBlockStack(color));
                         }
                     }
+                    for (DyeColor color : DyeColor.values()) {
+                        if (color != DyeColor.WHITE) { // Don't show the white version
+                            output.accept(ModItems.createColoredHoneyBlockStack(color));
+                        }
+                    }
                 })
                 .build());
     }

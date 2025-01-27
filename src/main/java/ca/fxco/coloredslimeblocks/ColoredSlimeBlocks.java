@@ -46,6 +46,10 @@ public class ColoredSlimeBlocks implements ModInitializer, PistonLibInitializer 
                 ModItems.COLORED_SLIME_BLOCK,
                 ColoredSlimeBlocks::cleanColoredSlimeBlockIteration
         );
+        CauldronInteraction.WATER.map().put(
+                ModItems.COLORED_HONEY_BLOCK,
+                ColoredSlimeBlocks::cleanColoredHoneyBlockIteration
+        );
     }
 
     public static ResourceLocation id(String name) {
@@ -64,6 +68,24 @@ public class ColoredSlimeBlocks implements ModInitializer, PistonLibInitializer 
             if (!level.isClientSide) {
                 player.setItemInHand(interactionHand, new ItemStack(Items.SLIME_BLOCK, itemStack.getCount()));
                 player.awardStat(ModStats.CLEAN_SLIME_BLOCK);
+                LayeredCauldronBlock.lowerFillLevel(blockState, level, blockPos);
+            }
+            return InteractionResult.SUCCESS;
+        }
+    }
+
+    private static InteractionResult cleanColoredHoneyBlockIteration(BlockState blockState, Level level,
+                                                                     BlockPos blockPos, Player player,
+                                                                     InteractionHand interactionHand,
+                                                                     ItemStack itemStack) {
+        if (!itemStack.is(ModItems.COLORED_HONEY_BLOCK)) {
+            return InteractionResult.TRY_WITH_EMPTY_HAND;
+        } else if (!itemStack.has(DataComponents.BLOCK_STATE)) {
+            return InteractionResult.TRY_WITH_EMPTY_HAND;
+        } else {
+            if (!level.isClientSide) {
+                player.setItemInHand(interactionHand, new ItemStack(Items.HONEY_BLOCK, itemStack.getCount()));
+                player.awardStat(ModStats.CLEAN_HONEY_BLOCK);
                 LayeredCauldronBlock.lowerFillLevel(blockState, level, blockPos);
             }
             return InteractionResult.SUCCESS;
