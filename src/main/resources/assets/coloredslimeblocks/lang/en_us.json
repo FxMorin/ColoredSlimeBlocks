@@ -1,6 +1,5 @@
 {
   "itemGroup.coloredslimeblocks.general": "Colored Slime Blocks",
-  "block.coloredslimeblocks.colored_slime_block": "$1 Slime Block",
   "block.coloredslimeblocks.colored_slime_block.white": "White Slime Block",
   "block.coloredslimeblocks.colored_slime_block.light_gray": "Light Gray Slime Block",
   "block.coloredslimeblocks.colored_slime_block.gray": "Gray Slime Block",
@@ -16,5 +15,21 @@
   "block.coloredslimeblocks.colored_slime_block.blue": "Blue Slime Block",
   "block.coloredslimeblocks.colored_slime_block.purple": "Purple Slime Block",
   "block.coloredslimeblocks.colored_slime_block.magenta": "Magenta Slime Block",
-  "block.coloredslimeblocks.colored_slime_block.pink": "Pink Slime Block"
+  "block.coloredslimeblocks.colored_slime_block.pink": "Pink Slime Block",
+  "block.coloredslimeblocks.colored_honey_block.white": "White Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.light_gray": "Light Gray Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.gray": "Gray Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.black": "Black Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.brown": "Brown Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.red": "Red Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.orange": "Orange Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.yellow": "Yellow Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.lime": "Lime Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.green": "Green Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.cyan": "Cyan Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.light_blue": "Light Blue Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.blue": "Blue Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.purple": "Purple Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.magenta": "Magenta Honey Block",
+  "block.coloredslimeblocks.colored_honey_block.pink": "Pink Honey Block"
 }

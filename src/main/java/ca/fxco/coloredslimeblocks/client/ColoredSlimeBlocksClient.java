@@ -16,12 +16,16 @@ public class ColoredSlimeBlocksClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         // Make sure colored slime block is translucent
-        BlockRenderLayerMap.INSTANCE.putBlocks(RenderType.translucent(), ModBlocks.COLORED_SLIME_BLOCK);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderType.translucent(),
+                ModBlocks.COLORED_SLIME_BLOCK,
+                ModBlocks.COLORED_HONEY_BLOCK
+        );
 
         // Dynamically tint the colored slime block
         ColorProviderRegistry.BLOCK.register(
                 (state, v, p, t) -> state.getValue(COLOR_PROPERTY).getTextureDiffuseColor(),
-                ModBlocks.COLORED_SLIME_BLOCK
+                ModBlocks.COLORED_SLIME_BLOCK,
+                ModBlocks.COLORED_HONEY_BLOCK
         );
 
         // Dynamically tint the colored slime block item

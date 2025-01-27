@@ -1,5 +1,6 @@
 package ca.fxco.coloredslimeblocks.base;
 
+import ca.fxco.coloredslimeblocks.blocks.ColoredHoneyBlock;
 import ca.fxco.coloredslimeblocks.blocks.ColoredSlimeBlock;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -19,6 +20,12 @@ public class ModBlocks {
             "colored_slime_block",
             ColoredSlimeBlock::new,
             BlockBehaviour.Properties.ofFullCopy(Blocks.SLIME_BLOCK)
+    );
+
+    public static final Block COLORED_HONEY_BLOCK = register(
+            "colored_honey_block",
+            ColoredHoneyBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.HONEY_BLOCK)
     );
 
     private static <T extends Block> T register(String name, Function<BlockBehaviour.Properties, T> function,
