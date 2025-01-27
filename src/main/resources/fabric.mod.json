@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "coloredslimeblocks",
+  "version": "${version}",
+  "name": "ColoredSlimeBlocks",
+  "description": "Allows you to dye slime blocks",
+  "authors": [
+    "FX"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/coloredslimeblocks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ca.fxco.coloredslimeblocks.client.ColoredSlimeBlocksClient"
+    ],
+    "main": [
+      "ca.fxco.coloredslimeblocks.ColoredSlimeBlocks"
+    ],
+    "pistonlib": [
+      "ca.fxco.coloredslimeblocks.ColoredSlimeBlocks"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

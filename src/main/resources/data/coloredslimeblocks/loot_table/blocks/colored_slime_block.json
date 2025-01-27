@@ -1,0 +1,284 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "coloredslimeblocks:colored_slime_block",
+          "functions": [
+            {
+              "function": "minecraft:copy_state",
+              "block": "coloredslimeblocks:colored_slime_block",
+              "properties": ["color"]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.white"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.light_gray"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "light_gray"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.gray"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "gray"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.black"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "black"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.brown"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "brown"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.red"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "red"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.orange"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "orange"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.yellow"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "yellow"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.lime"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "lime"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.green"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "green"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.cyan"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "cyan"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.light_blue"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "light_blue"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.blue"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "blue"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.purple"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "purple"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.magenta"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "magenta"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.coloredslimeblocks.colored_slime_block.pink"
+              },
+              "target": "item_name",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "coloredslimeblocks:colored_slime_block",
+                  "properties": {
+                    "color": "pink"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "coloredslimeblocks:colored_slime_block"
+}

@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "coloredslimeblocks:block/colored_slime_block",
+    "tints": [
+      {
+        "type": "coloredslimeblocks:color_state",
+        "default": 16383998
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "itemGroup.coloredslimeblocks.general": "Colored Slime Blocks",
+  "block.coloredslimeblocks.colored_slime_block": "$1 Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.white": "White Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.light_gray": "Light Gray Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.gray": "Gray Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.black": "Black Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.brown": "Brown Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.red": "Red Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.orange": "Orange Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.yellow": "Yellow Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.lime": "Lime Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.green": "Green Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.cyan": "Cyan Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.light_blue": "Light Blue Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.blue": "Blue Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.purple": "Purple Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.magenta": "Magenta Slime Block",
+  "block.coloredslimeblocks.colored_slime_block.pink": "Pink Slime Block"
+}
